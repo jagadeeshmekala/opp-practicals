@@ -1,0 +1,30 @@
+Original data:
+  Roll 1  Aarav  78
+  Roll 2  Diya  92
+  Roll 3  Kabir  35
+  Roll 4  Meera  64
+  Roll 5  Rohan  85
+  Roll 6  Sana  47
+
+After sort (highest marks first):
+  Roll 2  Diya  92
+  Roll 5  Rohan  85
+  Roll 1  Aarav  78
+  Roll 4  Meera  64
+  Roll 6  Sana  47
+  Roll 3  Kabir  35
+
+First failing student: Kabir (35)
+Students passed: 5 out of 6
+
+Marks after +5 grace: 97 90 83 69 52 40 
+Average marks: 66.8333
+
+Grade distribution (map):
+  Grade A: 2
+  Grade B: 1
+  Grade C: 1
+  Grade D: 1
+  Grade F: 1
+
+Lookup roll 4 (unordered_map): Meera, marks 64

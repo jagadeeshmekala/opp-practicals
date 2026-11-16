@@ -1,0 +1,27 @@
+Leak check using AddressSanitizer (g++ -fsanitize=address)
+
+### exp3_memory_leak_demo.cpp (leak() has no delete)
+Leaking function: value = 5
+Safe function: value = 5
+
+=================================================================
+==202==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 4 byte(s) in 1 object(s) allocated from:
+    #0 0x7f7fe84fe548 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x55750f57829e in leak() /home/claude/oop-practicals/exp3_memory_leak_demo.cpp:15
+    #2 0x55750f57844b in main /home/claude/oop-practicals/exp3_memory_leak_demo.cpp:27
+    #3 0x7f7fe7c2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x7f7fe7c2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #5 0x55750f5781c4 in _start (/tmp/leak+0x11c4) (BuildId: bede487fab224673c35f6ad4c220a1904ac84e2d)
+
+SUMMARY: AddressSanitizer: 4 byte(s) leaked in 1 allocation(s).
+
+### exp3_constructors_rule_of_5.cpp (destructors delete memory)
+Value: 10
+Value: 30
+Destructor
+Destructor
+Destructor
+Destructor
+Result: no leak report from AddressSanitizer (clean).

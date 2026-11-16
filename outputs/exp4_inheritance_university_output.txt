@@ -1,0 +1,12 @@
+Sample input: name = Anaya, age = 20, roll = 12, course = BTech, specialization = AI, marks = 52
+
+ENTERING DETAILS
+Enter name: Enter age: Enter roll no.: Enter course: Enter specialization: Enter marks: 
+DISPLAYING DETAILS
+Name: Anaya
+Age: 20
+Roll no.: 12
+Course: BTech
+Specialization: AI
+Marks: 52
+Graduated!

@@ -1,0 +1,3 @@
+Circle Area: 78.5
+Rectangle Area: 24
+Triangle Area: 20

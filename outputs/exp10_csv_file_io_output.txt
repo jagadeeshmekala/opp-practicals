@@ -1,0 +1,17 @@
+[tellp] Write position after writing all records: 61 bytes
+
+ID   Name      Marks
+1    Aarav     78   (starts at byte 14)
+2    Diya      92   (starts at byte 26)
+3    Kabir     35   (starts at byte 37)
+4    Meera     64   (starts at byte 49)
+
+[seekg] Record at byte 37: 3,Kabir,035
+[seekp/tellp] Updated marks; put pointer is now at byte 48
+
+After update:
+ID   Name      Marks
+1    Aarav     78   (starts at byte 14)
+2    Diya      92   (starts at byte 26)
+3    Kabir     58   (starts at byte 37)
+4    Meera     64   (starts at byte 49)

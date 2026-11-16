@@ -1,0 +1,6 @@
+Test 1: Transfer successful. Balances: 3500 and 3500
+Test 2 caught InsufficientFundsException -> Insufficient funds: balance is 3500, requested 99999
+Test 3 caught InvalidAmountException -> Invalid amount: -500 (amount must be greater than 0)
+Test 4 caught AccountNotFoundException -> Account not found: 999
+Test 5 caught via base BankException -> Invalid amount: 0 (amount must be greater than 0)
+Program finished normally.

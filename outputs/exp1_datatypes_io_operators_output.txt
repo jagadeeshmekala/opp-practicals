@@ -1,0 +1,7 @@
+Sample input: age = 19, marks = 82
+
+Enter your age: Enter your marks: Age = 19
+Marks = 82
+Percentage = 82%
+Grade = A
+Passed = 1

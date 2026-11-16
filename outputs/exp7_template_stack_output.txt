@@ -1,0 +1,19 @@
+=== Stack of int ===
+Stack (top -> bottom): 30 20 10 
+Top element: 30
+Popped: 30
+Stack (top -> bottom): 20 10 
+Size: 2
+
+=== Stack of float ===
+Stack (top -> bottom): 3.14 2.75 1.5 
+Popped: 3.14
+Stack (top -> bottom): 2.75 1.5 
+
+=== Stack of string ===
+Stack (top -> bottom): fun is C++ 
+Popped: fun
+Stack (top -> bottom): is C++ 
+
+=== Underflow test ===
+Error caught: Stack Underflow: cannot pop from an empty stack

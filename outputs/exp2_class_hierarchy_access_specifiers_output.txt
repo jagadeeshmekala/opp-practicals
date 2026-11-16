@@ -1,0 +1,4 @@
+Vehicle Number: 101
+Brand: Toyota
+Number of Seats: 5
+Battery Capacity: 75 kWh
