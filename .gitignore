@@ -1,9 +1,0 @@
-# compiled programs
-*.exe
-*.out
-a.out
-exp[0-9]
-exp1[0-9]
-leak
-# generated at runtime
-students.csv
